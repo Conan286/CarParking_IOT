@@ -80,7 +80,7 @@ sensorsRef.on('value', (snapshot) => {
     updateUsageChart(data || { sensor1: 0, sensor2: 0, sensor3: 0, sensor4: 0 });
 });
 // Lấy dữ liệu từ Firebase Realtime Database
-const sensorsRef1 = database.ref('/parking');
+const sensorsRef1 = database.ref('/soLanSuDung');
 sensorsRef1.on('value', (snapshot) => {
     const data = snapshot.val();
     updateUsageChart(data || { sensor1: 0, sensor2: 0, sensor3: 0, sensor4: 0 });
