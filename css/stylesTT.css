@@ -41,11 +41,12 @@ h1 {
 }
 
 .full .status-circle {
-    background-color: #ff4d4d;
+        background-color: #4CAF50;
 }
 
 .empty .status-circle {
-    background-color: #4CAF50;
+
+        background-color: #ff4d4d;
 }
 
 /* Responsive grid adjustments */
