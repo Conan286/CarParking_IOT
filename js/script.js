@@ -29,7 +29,7 @@ function updateSensorUI(sensors) {
         sensorDiv.classList.add(sensors[sensor] === 1 ? 'full' : 'empty');
         sensorDiv.innerHTML = `
             <h2>Vị trí ${sensor.replace('sensor', '')}</h2>
-            <p>${sensors[sensor] === 0 ? '(Trống)' : '(Đầy)'}</p>
+            <p>${sensors[sensor] === 0 ? '' : ''}</p>
             <div class="status-circle"></div>
         `;
         sensorsDiv.appendChild(sensorDiv);
