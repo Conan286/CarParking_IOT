@@ -66,7 +66,7 @@ function updateUsageChart(sensors) {
             scales: {
                 y: {
                     beginAtZero: true,
-                    max: 100
+                    max: 1000
                 }
             }
         }
